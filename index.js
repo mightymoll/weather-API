@@ -52,7 +52,10 @@ const displayWeather = async (city) => {
   const weatherCondition = data.weather[0].main
   const imagePath = getWeatherIcon(weatherCondition)
 
-  weatherIcon.src = imagePath
+  weatherIcon.src = imagePath;
+
+  weatherInfo.classList.remove('hidden')
+
 
 };
 

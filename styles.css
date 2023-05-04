@@ -55,13 +55,13 @@ body {
   color: white;
 }
 
-.weather-info {
+#weather-info {
   margin-top: 2rem;
-  text-align: center;
 }
 
-.weather-location {
+#weather-location {
   font-size: 2rem;
+  text-transform: capitalize;
 }
 
 .weather-main {
@@ -79,10 +79,20 @@ body {
   filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.2))
 }
 
+#weather-description {
+  font-size: 1rem;
+  text-transform: none;
+  font-weight: normal;
+}
+
 .weather-details {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   font-size: 1rem;
   margin-top: 0.5rem;
+}
+
+.hidden {
+  display: none;
 }
