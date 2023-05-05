@@ -65,28 +65,28 @@ const getWeatherIcon = (weatherCondition) => {
 
   switch (weatherCondition) {
     case 'Clear':
-      imagePath = '/images/clear.svg';
+      imagePath = './images/clear.svg';
       break;
     case 'Clouds':
-      imagePath = '/images/clouds.svg';
+      imagePath = './images/clouds.svg';
       break;
     case 'Drizzle':
-      imagePath = '/images/drizzle.svg';
+      imagePath = './images/drizzle.svg';
       break;
     case 'Mist':
-      imagePath = '/images/mist.svg';
+      imagePath = './images/mist.svg';
       break;
     case 'Rain':
-      imagePath = '/images/rain.svg';
+      imagePath = './images/rain.svg';
       break;
     case 'Snow':
-      imagePath = '/images/snow.svg';
+      imagePath = './images/snow.svg';
       break;
     case 'Thunderstorms':
-      imagePath = '/images/thunderstorms.svg';
+      imagePath = './images/thunderstorms.svg';
       break;
     default:
-      imagePath = '/images/partly-cloudy.svg';
+      imagePath = './images/partly-cloudy.svg';
       break;
   }
   return imagePath;
